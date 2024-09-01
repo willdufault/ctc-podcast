@@ -73,7 +73,7 @@ export default function Episodes() {
           </div>
         </Carousel>
         <div className='mt-3 d-flex justify-content-center'>
-          <Button variant='outline-orange-border' size='lg'>View all episodes &rarr;</Button>
+          <Button variant='outline-orange-border'>View all episodes &rarr;</Button>
         </div>
       </Container>
     </>

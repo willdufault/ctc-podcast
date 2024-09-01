@@ -75,7 +75,7 @@ export default function Guests() {
             </div>
           </Carousel>
           <div className='mt-3 d-flex justify-content-center'>
-            <Button variant='outline-orange-border' size='lg'>View past guests &rarr;</Button>
+            <Button variant='outline-orange-border'>View past guests &rarr;</Button>
           </div>
         </Container>
       </div>
