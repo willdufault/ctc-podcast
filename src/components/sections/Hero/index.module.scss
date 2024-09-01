@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Horizon";
+  src: url('src/assets/fonts/Horizon.otf');
+}
+
+.hero-title {
+  font-family: 'Horizon', sans-serif !important;
+  color: #fcfbec;
+  text-shadow: 0 0 0.5rem #f2ef88, 0 0 1.5rem #f2ef88;
+  font-size: 2.3rem !important;
+  line-height: 78%;
+
+  @media screen and (min-width: 576px) {
+    font-size: 2.6rem !important;
+    line-height: 80%;
+    background-size: contain;
+  }
+}
+
+.bg-equalizer {
+  background-image: url('../../../assets/images/equalizer.png');
+  background-size: cover;
+  
+  @media screen and (min-width: 992px) {
+    background-size: contain;
+  }
+}

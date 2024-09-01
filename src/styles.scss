@@ -1,0 +1,79 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+$custom-colors: (
+  'orange': #f07900,
+  'orange-dark': darken(#f07900, 5%)
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+.btn {
+  &:hover {
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.btn-orange,
+.btn-orange:focus {
+  color: white !important;
+  background-color: map-get($theme-colors, 'orange');
+
+  &:hover {
+    background-color: map-get($theme-colors, 'orange-dark');
+    border: 1px solid map-get($theme-colors, 'orange-dark') !important;
+  }
+}
+
+.bg-orange {
+  background-color: map-get($theme-colors, 'orange');
+}
+
+.btn-outline-orange-border,
+.btn-outline-orange-border:focus {
+  color: black;
+  background-color: none;
+  border: 1px solid $gray-300;
+
+  &:hover {
+    color: map-get($theme-colors, 'orange');
+    border: 1px solid map-get($theme-colors, 'orange');
+  }
+
+  &:hover {
+    color: map-get($theme-colors, 'orange');
+    border: 1px solid map-get($theme-colors, 'orange');
+  }
+}
+
+.btn-outline-orange-fill, 
+.btn-outline-orange-fill:focus {
+  color: black;
+  background-color: none;
+  border: 1px solid $gray-300;
+
+  &:hover {
+    color: white;
+    background-color: map-get($theme-colors, 'orange');
+    border: 1px solid map-get($theme-colors, 'orange');
+  }
+}
+
+.btn-outline-white,
+.btn-outline-white:focus {
+  color: white;
+  background-color: none;
+  border: 1px solid white;
+
+  &:hover {
+    color: map-get($theme-colors, 'orange');
+    background-color: white;
+  }
+
+  &:active {
+    color: map-get($theme-colors, 'orange') !important;
+    border: 1px solid white !important;
+  }
+}
