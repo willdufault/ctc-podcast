@@ -7,6 +7,9 @@ $custom-colors: (
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 .btn {
+  transition: color 0.2s ease, background-color 0.2s ease, 
+              transform 0.2s ease, border 0.2s ease;
+
   &:hover {
     transform: translateY(-1px);
   }
@@ -75,5 +78,29 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   &:active {
     color: map-get($theme-colors, 'orange') !important;
     border: 1px solid white !important;
+  }
+}
+
+.btn-social, 
+.btn-social:focus {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $gray-700;
+  background-color: $gray-300;
+  border: 1px solid $gray-300;
+  transform: scale(1.01);
+
+  &:hover {
+    color: white;
+    background-color: map-get($theme-colors, 'orange');
+    border: 1px solid map-get($theme-colors, 'orange');
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(1.01);
   }
 }

@@ -11,16 +11,16 @@ export default function Subscribe() {
           <h3>Subscribe Now</h3>
           <Row className='row-gap-3'>
             <Col xs={12} sm={6} lg={3}>
-              <Button variant='outline-orange-border rounded-pill' size='lg'>&lt;Logo&gt; Subscribe</Button>
+              <Button variant='outline-orange-border' className='rounded-pill' size='lg'>&lt;Logo&gt; Subscribe</Button>
             </Col>
             <Col xs={12} sm={6} lg={3}>
-              <Button variant='outline-orange-border rounded-pill' size='lg'>&lt;Logo&gt; Subscribe</Button>
+              <Button variant='outline-orange-border' className='rounded-pill' size='lg'>&lt;Logo&gt; Subscribe</Button>
             </Col>
             <Col xs={12} sm={6} lg={3}>
-              <Button variant='outline-orange-border rounded-pill' size='lg'>&lt;Logo&gt; Subscribe</Button>
+              <Button variant='outline-orange-border' className='rounded-pill' size='lg'>&lt;Logo&gt; Subscribe</Button>
             </Col>
             <Col xs={12} sm={6} lg={3}>
-              <Button variant='outline-orange-border rounded-pill' size='lg'>&lt;Logo&gt; Subscribe</Button>
+              <Button variant='outline-orange-border' className='rounded-pill' size='lg'>&lt;Logo&gt; Subscribe</Button>
             </Col>
           </Row>
         </Container>
