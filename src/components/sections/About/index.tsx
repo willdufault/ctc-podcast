@@ -4,9 +4,7 @@ import Stack from 'react-bootstrap/Stack'
 import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Button from 'react-bootstrap/Button'
 import Image from 'react-bootstrap/Image'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faInstagram, faSpotify } from '@fortawesome/free-brands-svg-icons'
 import { faPodcast } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
@@ -32,8 +30,6 @@ export default function About() {
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio necessitatibus repellendus, molestiae vero reprehenderit totam exercitationem consectetur unde provident voluptas non aperiam! Maxime hic, aut dignissimos modi inventore animi, aperiam voluptatum maiores architecto deserunt distinctio facere facilis aliquam temporibus quod porro? Officiis ducimus unde atque quam quae mollitia praesentium laborum.
                   </p>
                   <div className='d-flex column-gap-3'>
-                    {/* TODO: make sure this looks good on mobile */}
-
                     <Social url='https://www.example.com' Icon={faSpotify}></Social>
                     <Social url='https://www.example.com' Icon={faPodcast}></Social>
                     <Social url='https://www.example.com' Icon={faLinkedin}></Social>
