@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button'
 
 export default function NavigationBar() {
   return (
-    <Navbar collapseOnSelect expand="md">
+    <Navbar id='navbar' collapseOnSelect expand="md">
       <Container className='justify-content-end'>
         <Navbar.Toggle />
         <Navbar.Collapse className='justify-content-md-center'>

@@ -7,7 +7,7 @@ import 'react-multi-carousel/lib/styles.css'
 export default function Guests() {
   return (
     <>
-      <div className='bg-body-tertiary'>
+      <div id='guests' className='bg-body-tertiary'>
         <Container className='pt-4 pb-5'>
           <h3>Featured Guests</h3>
           <Carousel

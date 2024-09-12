@@ -6,7 +6,7 @@ import 'react-multi-carousel/lib/styles.css'
 export default function Episodes() {
   return (
     <>
-      <Container className='pt-4 pb-5'>
+      <Container id='episodes' className='pt-4 pb-5'>
         <h3>Latest Episodes</h3>
         <Carousel
           autoPlaySpeed={3000}

@@ -17,7 +17,7 @@ import emmanuelHeadshot from '../../../assets/images/emmanuel-atallah-headshot.j
 export default function About() {
   return (
     <>
-      <Container className='pt-4 pb-5'>
+      <Container id='about' className='pt-4 pb-5'>
         <h3>About Us</h3>
         <Stack gap={3}>
           <Card>

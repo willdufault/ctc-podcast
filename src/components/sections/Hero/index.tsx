@@ -12,7 +12,7 @@ import ctc_logo from '../../../assets/images/coffee-to-campfire-logo.jpg'
 export default function Hero() {
   return (
     <>
-      <div className={`bg-orange ${styles['bg-equalizer']} py-2`}>
+      <div id='hero' className={`bg-orange ${styles['bg-equalizer']} py-2`}>
         <Container className='py-5'>
           <Row className='justify-content-center align-items-center row-gap-4'>
             <Col xs={10} sm={8} md={6} lg={4} xxl={3}>
@@ -28,7 +28,7 @@ export default function Hero() {
                     &nbsp;<FontAwesomeIcon icon={faChevronDown}></FontAwesomeIcon>
                   </Button>
                 </a>
-                <a href="#episodes">
+                <a href="https://www.example.com">
                   <Button size='lg' className='w-100' variant='outline-white'>
                     <FontAwesomeIcon icon={faCirclePlay}></FontAwesomeIcon>&nbsp;
                     Last Episode

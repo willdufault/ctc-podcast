@@ -9,7 +9,7 @@ import styles from './index.module.scss'
 export default function Contact() {
   return (
     <>
-      <div className='bg-body-tertiary'>
+      <div id='contact' className='bg-body-tertiary'>
         <Container className='pt-4 pb-5'>
           <h3>Contact Us</h3>
           <Card>

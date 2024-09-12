@@ -97,7 +97,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     color: white;
     background-color: map-get($theme-colors, 'orange');
     border: 1px solid map-get($theme-colors, 'orange');
-    transform: scale(1.1);
+    transform: scale(1.08);
   }
 
   &:active {
