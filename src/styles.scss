@@ -2,13 +2,15 @@
 
 $custom-colors: (
   'orange': #f07900,
-  'orange-dark': darken(#f07900, 5%)
+  'orange-dark': darken(#f07900, 5%),
+  'gray-light': $gray-400,
+  'gray-dark': $gray-700,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 .btn {
-  transition: color 0.2s ease, background-color 0.2s ease, 
-              transform 0.2s ease, border 0.2s ease;
+  transition: color 0.2s ease, background-color 0.2s ease,
+    transform 0.2s ease, border 0.2s ease;
 
   &:hover {
     transform: translateY(-1px);
@@ -25,6 +27,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   background-color: map-get($theme-colors, 'orange');
 
   &:hover {
+    background-color: map-get($theme-colors, 'orange-dark');
+    border: 1px solid map-get($theme-colors, 'orange-dark') !important;
+  }
+
+  &:active {
     background-color: map-get($theme-colors, 'orange-dark');
     border: 1px solid map-get($theme-colors, 'orange-dark') !important;
   }
@@ -45,13 +52,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     border: 1px solid map-get($theme-colors, 'orange');
   }
 
-  &:hover {
+  &:active {
     color: map-get($theme-colors, 'orange');
     border: 1px solid map-get($theme-colors, 'orange');
   }
 }
 
-.btn-outline-orange-fill, 
+.btn-outline-orange-fill,
 .btn-outline-orange-fill:focus {
   color: black;
   background-color: none;
@@ -81,7 +88,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   }
 }
 
-.btn-social, 
+.btn-social,
 .btn-social:focus {
   width: 2.4rem;
   height: 2.4rem;
@@ -103,4 +110,31 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   &:active {
     transform: scale(1.01);
   }
+}
+
+.bg-gray-dark {
+  background-color: map-get($custom-colors, 'gray-dark') !important;
+}
+
+.btn-dot,
+.btn-dot:focus {
+  transition: color 0.2s ease, background-color 0.2s ease;
+  transform: none !important;
+  border: none;
+  background-color: map-get($theme-colors, 'gray-light');
+  padding: 0.35rem;
+  border-radius: 100%;
+
+  &:hover {
+    background-color: map-get($theme-colors, 'gray-light');
+  }
+}
+
+.btn-arrow,
+.btn-arrow:focus {
+  transition: color 0.2s ease;
+  transform: none !important;
+  border: none;
+  padding: 0;
+  color: map-get($theme-colors, 'gray-dark') !important;
 }
