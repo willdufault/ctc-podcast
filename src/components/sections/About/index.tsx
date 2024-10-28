@@ -27,13 +27,14 @@ export default function About() {
                 <Col>
                   <h6 className='mb-3'>Coffee to Campfire</h6>
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio necessitatibus repellendus, molestiae vero reprehenderit totam exercitationem consectetur unde provident voluptas non aperiam! Maxime hic, aut dignissimos modi inventore animi, aperiam voluptatum maiores architecto deserunt distinctio facere facilis aliquam temporibus quod porro? Officiis ducimus unde atque quam quae mollitia praesentium laborum.
+                    Coffee to Campfire is a professional development podcast exploring the journeys of individuals who have climbed to top leadership positions in business, offering insightful conversations, practical advice, and inspiration to aspiring professionals and entrepreneurs. Our mission is to empower listeners with the knowledge and motivation to navigate their own career paths.
                   </p>
                   <div className='d-flex column-gap-3'>
-                    <Social url='https://www.example.com' Icon={faSpotify}></Social>
-                    <Social url='https://www.example.com' Icon={faPodcast}></Social>
-                    <Social url='https://www.example.com' Icon={faLinkedin}></Social>
-                    <Social url='https://www.example.com' Icon={faInstagram}></Social>
+                    <Social url='https://open.spotify.com/show/41HtUjXhvdWOqBhywrJ1ge' Icon={faSpotify}></Social>
+                    <Social url='https://podcasts.apple.com/us/podcast/coffee-to-campfire/id1738944512' Icon={faPodcast}></Social>
+                    <Social url='https://www.linkedin.com/company/coffeetocampfire/?viewAsMember=true' Icon={faLinkedin}></Social>
+                    <Social url='https://www.instagram.com/coffeetocampfire/' Icon={faInstagram}></Social>
+                    <Social url='mailto:coffeetocampfire@gmail.com' Icon={faEnvelope}></Social>
                   </div>
                 </Col>
               </Row>
@@ -49,12 +50,12 @@ export default function About() {
                   <h6 className='mb-0'>Ryan Hu</h6>
                   <p>Co-host of Coffee to Campfire</p>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur incidunt, corrupti amet eveniet, dignissimos debitis nesciunt repellendus, assumenda corporis quas alias repudiandae dolores quam deleniti perferendis consectetur dolor quos modi repellat officia! Eos, quasi excepturi! Modi fugiat iste placeat quaerat.
+                    Ryan is a current Master in Management student at the University of Chicago Booth School of Business, and incoming Investment Analyst at Cambridge Associates in Boston. For careers, he is very interested in opportunities on the buy-side among private asset classes such as growth equity, venture capital, and mezzanine financing. In terms of hobbies, he enjoys playing paddle sports, running marathons, and traveling.
                   </p>
                   <div className='d-flex column-gap-3'>
-                    <Social url='https://www.example.com' Icon={faLinkedin}></Social>
-                    <Social url='https://www.example.com' Icon={faInstagram}></Social>
-                    <Social url='https://www.example.com' Icon={faEnvelope}></Social>
+                    <Social url='https://www.linkedin.com/in/ryanhhu/' Icon={faLinkedin}></Social>
+                    <Social url='https://www.instagram.com/rhu.2002/?hl=en' Icon={faInstagram}></Social>
+                    <Social url='mailto:rhu.2k02@gmail.com' Icon={faEnvelope}></Social>
                   </div>
                 </Col>
               </Row>
@@ -70,12 +71,12 @@ export default function About() {
                   <h6 className='mb-0'>Emmanuel Atallah</h6>
                   <p>Co-host of Coffee to Campfire</p>
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis placeat molestias ipsum non perferendis cum nulla vero voluptate, reiciendis ut qui, quidem iure nihil. Corporis, provident? Nihil ullam sint dicta eligendi sapiente optio sit ut nam, beatae a eos minus!
+                    Emmanuel is a soon to be Global Sovereign Credit Analyst at Morningstar DBRS in Toronto, he is entering the credit ratings industry after obtaining his bachelors in Economics and Political Science from the University of Toronto. He is also currently pursuing the first level of the CFA. In his free time, he enjoys playing and watching basketball and football, reading comic books, and running.
                   </p>
                   <div className='d-flex column-gap-3'>
-                    <Social url='https://www.example.com' Icon={faLinkedin}></Social>
-                    <Social url='https://www.example.com' Icon={faInstagram}></Social>
-                    <Social url='https://www.example.com' Icon={faEnvelope}></Social>
+                    <Social url='https://www.linkedin.com/in/emmanuel-joseph-atallah-5523a1132/' Icon={faLinkedin}></Social>
+                    <Social url='https://www.instagram.com/emmanuelatallah/?hl=en' Icon={faInstagram}></Social>
+                    <Social url='mailto:emmanuel.atallah@gmail.com' Icon={faEnvelope}></Social>
                   </div>
                 </Col>
               </Row>

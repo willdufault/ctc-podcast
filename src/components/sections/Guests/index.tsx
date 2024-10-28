@@ -9,7 +9,9 @@ import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
-import ryanHeadshot from '../../../assets/images/ryan-hu-headshot.jpg'
+import arielMagilHeadshot from '../../../assets/images/ariel-magil-headshot.jpg'
+import jeremyPhillipsHeadshot from '../../../assets/images/jeremy-phillips-headshot.jpg'
+import alexanderGunthnerHeadshot from '../../../assets/images/alexander-gunthner-headshot.jpg'
 
 export default function Guests() {
   interface GuestData {
@@ -18,35 +20,32 @@ export default function Guests() {
     company: string
     episodeNumber: number
     url: string
+    imageSrc: string
   }
   const guests: GuestData[] = [
     {
-      name: 'Jane Doe',
-      position: 'Chief Executive Officer',
-      company: 'Nvidia',
-      episodeNumber: 1,
-      url: 'https://example.com',
+      name: 'Ariel Magil',
+      position: 'Manager',
+      company: 'Raymond James',
+      episodeNumber: 5,
+      url: 'https://open.spotify.com/episode/099xguradRJVz4CaoX5n3b?si=f61f8f94cb9a42dc',
+      imageSrc: arielMagilHeadshot,
     },
     {
-      name: 'Jane Doe',
-      position: 'Chief Executive Officer',
-      company: 'Nvidia',
-      episodeNumber: 1,
-      url: 'https://example.com',
+      name: 'Jeremy Phillips',
+      position: 'Manager',
+      company: 'Simon-Kucher & Partners',
+      episodeNumber: 4,
+      url: 'https://open.spotify.com/episode/4V2fRBVVeiJn3mOHb9n2Um?si=cca66c391d864116',
+      imageSrc: jeremyPhillipsHeadshot,
     },
     {
-      name: 'Jane Doe',
-      position: 'Chief Executive Officer',
-      company: 'Nvidia',
-      episodeNumber: 1,
-      url: 'https://example.com',
-    },
-    {
-      name: 'Jane Doe',
-      position: 'Chief Executive Officer',
-      company: 'Nvidia',
-      episodeNumber: 1,
-      url: 'https://example.com',
+      name: 'Alexander Günthner',
+      position: 'Associate',
+      company: 'Boston Consulting Group',
+      episodeNumber: 3,
+      url: 'https://open.spotify.com/episode/3OMGAQjsr02zin5HGQrEGX?si=95e29ff7ed584246',
+      imageSrc: alexanderGunthnerHeadshot,
     },
   ]
 
@@ -117,7 +116,7 @@ export default function Guests() {
                   <Card.Body>
                     <Row className='align-items-center flex-column flex-lg-row row-gap-3'>
                       <Col sm={9} md={10} lg={7} xl={6}>
-                        <Image src={ryanHeadshot} alt="Coffee to Campfire logo" className='w-100' fluid></Image>
+                        <Image src={guest.imageSrc} alt="Coffee to Campfire logo" className='w-100' fluid></Image>
                       </Col>
                       <Col>
                         <h6 className='mb-2'>{guest.name}</h6>

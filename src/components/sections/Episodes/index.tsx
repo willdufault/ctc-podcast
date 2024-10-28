@@ -21,36 +21,36 @@ export default function Episodes() {
   }
   const episodes: EpisodeData[] = [
     {
-      title: '#4 Jane Doe',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptatibus eos earum aut reiciendis!',
-      date: 'Jan 1 2024',
-      hours: 1,
-      minutes: 35,
-      url: 'https://www.example.com'
-    },
-    {
-      title: '#3 Jane Doe',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptatibus eos earum aut reiciendis!',
-      date: 'Jan 1 2024',
+      title: '#7 New Beginnings',
+      description: 'Emmanuel and Ryan discuss Ryan\'s start at UChicago Booth for his Master\'s, the career value of a CFA designation, and add a new segment on current business news.',
+      date: 'Oct 7 2024',
       hours: 0,
-      minutes: 51,
-      url: 'https://www.example.com'
+      minutes: 49,
+      url: 'https://open.spotify.com/episode/4nseqbWSO7HbuEpnOybfnM?si=d5d320b0560243dd'
     },
     {
-      title: '#2 Jane Doe',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptatibus eos earum aut reiciendis!',
-      date: 'Jan 1 2024',
-      hours: 1,
-      minutes: 35,
-      url: 'https://www.example.com'
+      title: '#6 CTC x KTTP',
+      date: 'Aug 10 2024',
+      description: 'Ryan and Emmanuel join the KTTP hosts to discuss East vs. West Coast lifestyles and compare UofT\'s Economics program with UBC\'s Sauder School of Business.',
+      hours: 0,
+      minutes: 55,
+      url: 'https://open.spotify.com/episode/1XTBLTx6phNM2clKYVPK67?si=6da0a771fa18419c'
     },
     {
-      title: '#1 Jane Doe',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptatibus eos earum aut reiciendis!',
-      date: 'Jan 1 2024',
-      hours: 1,
-      minutes: 35,
-      url: 'https://www.example.com'
+      title: '#5 Ariel Magil',
+      description: 'Ryan and Emmanuel interview Raymond James Toronto Manager Ariel Magil on building a career in Wealth Management and job-hunting tips for students.',
+      date: 'July 18 2024',
+      hours: 0,
+      minutes: 40,
+      url: 'https://open.spotify.com/episode/099xguradRJVz4CaoX5n3b?si=c7cbb4bc3b26445a'
+    },
+    {
+      title: '#4 Jeremy Phillips',
+      description: 'Ryan and Emmanuel talk with Simon-Kucher Boston Manager Jeremy Phillips about revenue-focused strategy consulting and tips for choosing an MBA program.',
+      date: 'Jun 23 2024',
+      hours: 0,
+      minutes: 36,
+      url: 'https://open.spotify.com/episode/4V2fRBVVeiJn3mOHb9n2Um?si=ec7158e193b2458e'
     }
   ]
 

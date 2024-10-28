@@ -28,7 +28,7 @@ export default function Hero() {
                     &nbsp;<FontAwesomeIcon icon={faChevronDown}></FontAwesomeIcon>
                   </Button>
                 </a>
-                <a href="https://www.example.com">
+                <a href="https://open.spotify.com/episode/4nseqbWSO7HbuEpnOybfnM?si=3b8a95f212054c7e">
                   <Button size='lg' className='w-100' variant='outline-white'>
                     <FontAwesomeIcon icon={faCirclePlay}></FontAwesomeIcon>&nbsp;
                     Last Episode
