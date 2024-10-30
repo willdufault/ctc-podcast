@@ -17,28 +17,28 @@ export default function Subscribe() {
           <Col xs={8} sm={6} md={5} lg={3} xl={3}>
             <a href="https://open.spotify.com/show/41HtUjXhvdWOqBhywrJ1ge">
               <Button variant='outline-orange-border' size='lg' className='rounded-pill'>
-                <Image src={spotifyButton} fluid className='px-1'></Image>
+                <Image src={spotifyButton} alt='Listen on Spotify' fluid className='px-1'></Image>
               </Button>
             </a>
           </Col>
           <Col xs={8} sm={6} md={5} lg={3} xl={3}>
             <a href="https://podcasts.apple.com/us/podcast/coffee-to-campfire/id1738944512">
               <Button variant='outline-orange-border' size='lg' className='rounded-pill'>
-                <Image src={applePodcastsButton} fluid className='px-1'></Image>
+                <Image src={applePodcastsButton} alt='Listen on Apple Podcasts' fluid className='px-1'></Image>
               </Button>
             </a>
           </Col>
           <Col xs={8} sm={6} md={5} lg={3} xl={3}>
             <a href="https://www.linkedin.com/company/coffeetocampfire/?viewAsMember=true">
               <Button variant='outline-orange-border' size='lg' className='rounded-pill'>
-                <Image src={linkedInButton} fluid className='px-1'></Image>
+                <Image src={linkedInButton} alt='Follow on LinkedIn' fluid className='px-1'></Image>
               </Button>
             </a>
           </Col>
           <Col xs={8} sm={6} md={5} lg={3} xl={3}>
             <a href="https://www.instagram.com/coffeetocampfire/">
               <Button variant='outline-orange-border' size='lg' className='rounded-pill'>
-                <Image src={instagramButton} fluid className='px-1'></Image>
+                <Image src={instagramButton} alt='Follow on Instagram' fluid className='px-1'></Image>
               </Button>
             </a>
           </Col>
