@@ -11,14 +11,16 @@ import Subscribe from './components/sections/Subscribe'
 function App() {
   return (
     <>
-      <NavigationBar></NavigationBar>
-      <Hero></Hero>
-      <Episodes></Episodes>
-      <Guests></Guests>
-      <About></About>
-      <Contact></Contact>
-      <Subscribe></Subscribe>
-      <Footer></Footer>
+      <article>
+        <NavigationBar></NavigationBar>
+        <Hero></Hero>
+        <Episodes></Episodes>
+        <Guests></Guests>
+        <About></About>
+        <Contact></Contact>
+        <Subscribe></Subscribe>
+        <Footer></Footer>
+      </article>
     </>
   )
 }

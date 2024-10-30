@@ -22,7 +22,7 @@ export default function About() {
             <Card.Body>
               <Row className='align-items-center flex-column flex-md-row row-gap-3'>
                 <Col sm={9} md={5} lg={4} xl={3}>
-                  <Image src={ctcLogo} alt="Coffee to Campfire logo" className='w-100' fluid></Image>
+                  <Image src={ctcLogo} alt="Coffee to Campfire logo" className='w-100 border' fluid></Image>
                 </Col>
                 <Col>
                   <h6 className='mb-3'>Coffee to Campfire</h6>
@@ -44,7 +44,7 @@ export default function About() {
             <Card.Body>
               <Row className='align-items-center flex-column flex-md-row row-gap-3'>
                 <Col sm={9} md={5} lg={4} xl={3}>
-                  <Image src={ryanHeadshot} alt="Ryan Hu headshot" className='w-100' fluid></Image>
+                  <Image src={ryanHeadshot} alt="Ryan Hu headshot" className='w-100 border' fluid></Image>
                 </Col>
                 <Col>
                   <h6 className='mb-0'>Ryan Hu</h6>
@@ -65,7 +65,7 @@ export default function About() {
             <Card.Body>
               <Row className='align-items-center flex-column flex-md-row row-gap-3'>
                 <Col sm={9} md={5} lg={4} xl={3}>
-                  <Image src={emmanuelHeadshot} alt="Emmanuel Atallah headshot" className='w-100' fluid></Image>
+                  <Image src={emmanuelHeadshot} alt="Emmanuel Atallah headshot" className='w-100 border' fluid></Image>
                 </Col>
                 <Col>
                   <h6 className='mb-0'>Emmanuel Atallah</h6>

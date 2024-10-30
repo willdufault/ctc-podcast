@@ -116,7 +116,7 @@ export default function Guests() {
                   <Card.Body>
                     <Row className='align-items-center flex-column flex-lg-row row-gap-3'>
                       <Col sm={9} md={10} lg={7} xl={6}>
-                        <Image src={guest.imageSrc} alt="Coffee to Campfire logo" className='w-100' fluid></Image>
+                        <Image src={guest.imageSrc} alt="Coffee to Campfire logo" className='w-100 border' fluid></Image>
                       </Col>
                       <Col>
                         <h6 className='mb-2'>{guest.name}</h6>

@@ -5,7 +5,10 @@ import Carousel from 'react-multi-carousel'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import ctcLogo from '../../../assets/images/coffee-to-campfire-logo.jpg'
+import episode4Image from '../../../assets/images/episode-4.jpg'
+import episode5Image from '../../../assets/images/episode-5.jpg'
+import episode6Image from '../../../assets/images/episode-6.jpg'
+import episode7Image from '../../../assets/images/episode-7.jpg'
 import 'react-multi-carousel/lib/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCirclePlay } from '@fortawesome/free-regular-svg-icons'
@@ -18,6 +21,7 @@ export default function Episodes() {
     hours: number
     minutes: number
     url: string
+    imageSrc: string
   }
   const episodes: EpisodeData[] = [
     {
@@ -26,7 +30,8 @@ export default function Episodes() {
       date: 'Oct 7 2024',
       hours: 0,
       minutes: 49,
-      url: 'https://open.spotify.com/episode/4nseqbWSO7HbuEpnOybfnM?si=d5d320b0560243dd'
+      url: 'https://open.spotify.com/episode/4nseqbWSO7HbuEpnOybfnM?si=d5d320b0560243dd',
+      imageSrc: episode7Image
     },
     {
       title: '#6 CTC x KTTP',
@@ -34,7 +39,8 @@ export default function Episodes() {
       description: 'Ryan and Emmanuel join the KTTP hosts to discuss East vs. West Coast lifestyles and compare UofT\'s Economics program with UBC\'s Sauder School of Business.',
       hours: 0,
       minutes: 55,
-      url: 'https://open.spotify.com/episode/1XTBLTx6phNM2clKYVPK67?si=6da0a771fa18419c'
+      url: 'https://open.spotify.com/episode/1XTBLTx6phNM2clKYVPK67?si=6da0a771fa18419c',
+      imageSrc: episode6Image
     },
     {
       title: '#5 Ariel Magil',
@@ -42,7 +48,8 @@ export default function Episodes() {
       date: 'July 18 2024',
       hours: 0,
       minutes: 40,
-      url: 'https://open.spotify.com/episode/099xguradRJVz4CaoX5n3b?si=c7cbb4bc3b26445a'
+      url: 'https://open.spotify.com/episode/099xguradRJVz4CaoX5n3b?si=c7cbb4bc3b26445a',
+      imageSrc: episode5Image
     },
     {
       title: '#4 Jeremy Phillips',
@@ -50,7 +57,8 @@ export default function Episodes() {
       date: 'Jun 23 2024',
       hours: 0,
       minutes: 36,
-      url: 'https://open.spotify.com/episode/4V2fRBVVeiJn3mOHb9n2Um?si=ec7158e193b2458e'
+      url: 'https://open.spotify.com/episode/4V2fRBVVeiJn3mOHb9n2Um?si=ec7158e193b2458e',
+      imageSrc: episode4Image
     }
   ]
 
@@ -126,7 +134,7 @@ export default function Episodes() {
                 <Card.Body>
                   <Row className='align-items-center flex-column flex-xl-row row-gap-3'>
                     <Col sm={9} md={10} lg={7} xl={5}>
-                      <Image src={ctcLogo} alt="Coffee to Campfire logo" className='w-100' fluid></Image>
+                      <Image src={episode.imageSrc} alt="Coffee to Campfire logo" className='w-100 border' fluid></Image>
                     </Col>
                     <Col>
                       <h6 className='mb-2'>{episode.title}</h6>
