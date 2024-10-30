@@ -25,7 +25,7 @@ export default function Episodes() {
   }
   const episodes: EpisodeData[] = [
     {
-      title: '#7 New Beginnings',
+      title: '#7) New Beginnings',
       description: 'Emmanuel and Ryan discuss Ryan\'s start at UChicago Booth for his Master\'s, the career value of a CFA designation, and add a new segment on current business news.',
       date: 'Oct 7 2024',
       hours: 0,
@@ -34,7 +34,7 @@ export default function Episodes() {
       imageSrc: episode7Image
     },
     {
-      title: '#6 CTC x KTTP',
+      title: '#6) CTC x KTTP',
       date: 'Aug 10 2024',
       description: 'Ryan and Emmanuel join the KTTP hosts to discuss East vs. West Coast lifestyles and compare UofT\'s Economics program with UBC\'s Sauder School of Business.',
       hours: 0,
@@ -43,7 +43,7 @@ export default function Episodes() {
       imageSrc: episode6Image
     },
     {
-      title: '#5 Ariel Magil',
+      title: '#5) Ariel Magil',
       description: 'Ryan and Emmanuel interview Raymond James Toronto Manager Ariel Magil on building a career in Wealth Management and job-hunting tips for students.',
       date: 'July 18 2024',
       hours: 0,
@@ -52,7 +52,7 @@ export default function Episodes() {
       imageSrc: episode5Image
     },
     {
-      title: '#4 Jeremy Phillips',
+      title: '#4) Jeremy Phillips',
       description: 'Ryan and Emmanuel talk with Simon-Kucher Boston Manager Jeremy Phillips about revenue-focused strategy consulting and tips for choosing an MBA program.',
       date: 'Jun 23 2024',
       hours: 0,
