@@ -71,7 +71,7 @@ export default function About() {
                   <h6 className='mb-0'>Emmanuel Atallah</h6>
                   <p>Co-host of Coffee to Campfire</p>
                   <p>
-                    Emmanuel is a soon to be Global Sovereign Credit Analyst at Morningstar DBRS in Toronto, he is entering the credit ratings industry after obtaining his bachelors in Economics and Political Science from the University of Toronto. He is also currently pursuing the first level of the CFA. In his free time, he enjoys playing and watching basketball and football, reading comic books, and running.
+                    Emmanuel is a Global Sovereign Credit Analyst at Morningstar DBRS in Toronto, he is entering the credit ratings industry after obtaining his bachelors in Economics and Political Science from the University of Toronto. He is also currently pursuing the first level of the CFA. In his free time, he enjoys playing and watching basketball and football, reading comic books, and running.
                   </p>
                   <div className='d-flex column-gap-3'>
                     <Social url='https://www.linkedin.com/in/emmanuel-joseph-atallah-5523a1132/' Icon={faLinkedin}></Social>
