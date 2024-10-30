@@ -77,7 +77,7 @@ export default function Episodes() {
         </Button>
         <ul className='list-inline my-3 px-3'>
           {episodes.map((_, index) => (
-            <li className='list-inline-item mb-1'>
+            <li className='list-inline-item mb-1' key={index}>
               {/* Modulo prevents bug when jumping to slide 0. */}
               <Button
                 onClick={() => goToSlide(index + episodes.length)}
@@ -128,8 +128,8 @@ export default function Episodes() {
             },
           }}
         >
-          {episodes.map((episode) => (
-            <div className='p-1 h-100'>
+          {episodes.map((episode, index) => (
+            <div className='p-1 h-100' key={index}>
               <Card className='h-100'>
                 <Card.Body>
                   <Row className='align-items-center flex-column flex-xl-row row-gap-3'>
