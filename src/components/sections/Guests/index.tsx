@@ -122,7 +122,7 @@ export default function Guests() {
                         <h6 className='mb-2'>{guest.name}</h6>
                         <p className='mb-1'>{guest.position} at {guest.company}</p>
                         <p className="text-black-50"><small>Episode #{guest.episodeNumber}</small></p>
-                        <a href={guest.url}>
+                        <a href={guest.url} target='_blank'>
                           <Button variant='outline-orange-fill'>
                             <FontAwesomeIcon icon={faCirclePlay}></FontAwesomeIcon>&nbsp;
                             Listen now

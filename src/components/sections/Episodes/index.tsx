@@ -140,7 +140,7 @@ export default function Episodes() {
                       <h6 className='mb-2'>{episode.title}</h6>
                       <p className='mb-1'>{episode.description}</p>
                       <p className="text-black-50"><small>{episode.date} – {formatTime(episode.hours, episode.minutes)}</small></p>
-                      <a href={episode.url}>
+                      <a href={episode.url} target='_blank'>
                         <Button variant='outline-orange-fill'>
                           <FontAwesomeIcon icon={faCirclePlay}></FontAwesomeIcon>&nbsp;
                           Listen now

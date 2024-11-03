@@ -48,9 +48,9 @@ export default function About() {
                 </Col>
                 <Col>
                   <h6 className='mb-0'>Ryan Hu</h6>
-                  <p>Co-host of Coffee to Campfire</p>
+                  <p>Co-Host of Coffee to Campfire</p>
                   <p>
-                    Ryan is a current Master in Management student at the University of Chicago Booth School of Business, and incoming Investment Analyst at Cambridge Associates in Boston. For careers, he is very interested in opportunities on the buy-side among private asset classes such as growth equity, venture capital, and mezzanine financing. In terms of hobbies, he enjoys playing paddle sports, running marathons, and traveling.
+                    Ryan is a Master in Management student at the University of Chicago Booth School of Business and a graduate of the University of Toronto with a degree in Economics. He is an incoming Investment Analyst at Cambridge Associates in Boston and is highly interested in buy-side opportunities within private asset classes, including growth equity, venture capital, and mezzanine financing. He is also currently pursuing CFA Level 1. In his free time, he enjoys playing paddle sports, running marathons, and traveling.
                   </p>
                   <div className='d-flex column-gap-3'>
                     <Social url='https://www.linkedin.com/in/ryanhhu/' Icon={faLinkedin}></Social>
@@ -69,9 +69,9 @@ export default function About() {
                 </Col>
                 <Col>
                   <h6 className='mb-0'>Emmanuel Atallah</h6>
-                  <p>Co-host of Coffee to Campfire</p>
+                  <p>Co-Host of Coffee to Campfire</p>
                   <p>
-                    Emmanuel is a Global Sovereign Credit Analyst at Morningstar DBRS in Toronto, he is entering the credit ratings industry after obtaining his bachelors in Economics and Political Science from the University of Toronto. He is also currently pursuing the first level of the CFA. In his free time, he enjoys playing and watching basketball and football, reading comic books, and running.
+                    Emmanuel is a Global Sovereign Credit Analyst at Morningstar DBRS in Toronto, he is entering the credit ratings industry after obtaining his bachelors in Economics and Political Science from the University of Toronto. He is also currently pursuing CFA Level 1. In his free time, he enjoys playing and watching basketball and football, reading comic books, and running.
                   </p>
                   <div className='d-flex column-gap-3'>
                     <Social url='https://www.linkedin.com/in/emmanuel-joseph-atallah-5523a1132/' Icon={faLinkedin}></Social>

@@ -10,7 +10,7 @@ interface Props {
 export default function Component({ url, Icon }: Props) {
   return (
     <>
-    <a href={url}>
+    <a href={url} target='_blank'>
       <Button variant='social' className='rounded-circle'>
         <FontAwesomeIcon icon={Icon} size='lg'></FontAwesomeIcon>
       </Button>

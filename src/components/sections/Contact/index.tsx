@@ -61,7 +61,7 @@ export default function Contact() {
                     </Form.Group>
                   </Col>
                 </Row>
-                <a href={`https://docs.google.com/forms/d/e/1FAIpQLSdmSQSnMWMc827cg9cF5c-kFoToR_B4z6-7lfzOIwCycx4KJA/viewform?entry.213280235=${name}&entry.114438050=${email}&entry.760820466=${linkedIn}&entry.403270838=${subject}&entry.1295928621=${note}`}>
+                <a href={`https://docs.google.com/forms/d/e/1FAIpQLSdmSQSnMWMc827cg9cF5c-kFoToR_B4z6-7lfzOIwCycx4KJA/viewform?entry.213280235=${name}&entry.114438050=${email}&entry.760820466=${linkedIn}&entry.403270838=${subject}&entry.1295928621=${note}`} target='_blank'>
                   <Button variant='orange'>Submit</Button>
                 </a>
               </Form>
