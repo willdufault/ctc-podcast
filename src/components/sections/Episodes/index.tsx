@@ -9,6 +9,7 @@ import episode4Image from '../../../assets/images/episode-4.jpg'
 import episode5Image from '../../../assets/images/episode-5.jpg'
 import episode6Image from '../../../assets/images/episode-6.jpg'
 import episode7Image from '../../../assets/images/episode-7.jpg'
+import ryanHeadshot from '../../../assets/images/ryan-hu-headshot.jpg'
 import 'react-multi-carousel/lib/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCirclePlay } from '@fortawesome/free-regular-svg-icons'
@@ -24,6 +25,15 @@ export default function Episodes() {
     imageSrc: string
   }
   const episodes: EpisodeData[] = [
+    {
+      title: '#8) Test episode',
+      description: 'test test test test test test test test test test test test',
+      date: 'Nov 15 2024',
+      hours: 5,
+      minutes: 14,
+      url: 'https://www.google.com',
+      imageSrc: ryanHeadshot
+    },
     {
       title: '#7) New Beginnings',
       description: 'Emmanuel and Ryan discuss Ryan\'s start at UChicago Booth for his Master\'s, the career value of a CFA designation, and add a new segment on current business news.',
