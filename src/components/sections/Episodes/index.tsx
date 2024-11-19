@@ -5,11 +5,10 @@ import Carousel from 'react-multi-carousel'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import episode4Image from '../../../assets/images/episode-4.jpg'
 import episode5Image from '../../../assets/images/episode-5.jpg'
 import episode6Image from '../../../assets/images/episode-6.jpg'
 import episode7Image from '../../../assets/images/episode-7.jpg'
-import ryanHeadshot from '../../../assets/images/ryan-hu-headshot.jpg'
+import episode8Image from '../../../assets/images/episode-8.jpg'
 import 'react-multi-carousel/lib/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCirclePlay } from '@fortawesome/free-regular-svg-icons'
@@ -26,13 +25,13 @@ export default function Episodes() {
   }
   const episodes: EpisodeData[] = [
     {
-      title: '#8) Test episode',
-      description: 'test test test test test test test test test test test test',
-      date: 'Nov 15 2024',
-      hours: 5,
-      minutes: 14,
-      url: 'https://www.google.com',
-      imageSrc: ryanHeadshot
+      title: '#8) Jacopo Piccirillo',
+      description: 'Ryan and Emmanuel chat with aspiring venture capitalist Jacopo Piccirillo about launching a European soft drink during the pandemic, covering R&D, funding, and product development insights.',
+      date: 'Nov 12 2024',
+      hours: 0,
+      minutes: 44,
+      url: 'https://open.spotify.com/episode/5qQggWPfqJzHVOAcD1Q0P3?si=1e757d40b5844f2b',
+      imageSrc: episode8Image
     },
     {
       title: '#7) New Beginnings',
@@ -60,15 +59,6 @@ export default function Episodes() {
       minutes: 40,
       url: 'https://open.spotify.com/episode/099xguradRJVz4CaoX5n3b?si=c7cbb4bc3b26445a',
       imageSrc: episode5Image
-    },
-    {
-      title: '#4) Jeremy Phillips',
-      description: 'Ryan and Emmanuel talk with Simon-Kucher Boston Manager Jeremy Phillips about revenue-focused strategy consulting and tips for choosing an MBA program.',
-      date: 'Jun 23 2024',
-      hours: 0,
-      minutes: 36,
-      url: 'https://open.spotify.com/episode/4V2fRBVVeiJn3mOHb9n2Um?si=ec7158e193b2458e',
-      imageSrc: episode4Image
     }
   ]
 

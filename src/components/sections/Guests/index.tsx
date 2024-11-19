@@ -12,11 +12,13 @@ import 'react-multi-carousel/lib/styles.css'
 import arielMagilHeadshot from '../../../assets/images/ariel-magil-headshot.jpg'
 import jeremyPhillipsHeadshot from '../../../assets/images/jeremy-phillips-headshot.jpg'
 import alexanderGunthnerHeadshot from '../../../assets/images/alexander-gunthner-headshot.jpg'
+import jacopoPiccirilloHeadshot from '../../../assets/images/jacopo-piccirillo-headshot.jpg'
 
 export default function Guests() {
   interface GuestData {
     name: string
     position: string
+    of: boolean
     company: string
     episodeNumber: number
     url: string
@@ -24,8 +26,18 @@ export default function Guests() {
   }
   const guests: GuestData[] = [
     {
+      name: 'Jacopo Piccirillo',
+      position: 'Founder',
+      of: true,
+      company: 'Virtuous',
+      episodeNumber: 8,
+      url: 'https://open.spotify.com/episode/5qQggWPfqJzHVOAcD1Q0P3?si=755232150393415a',
+      imageSrc: jacopoPiccirilloHeadshot,
+    },
+    {
       name: 'Ariel Magil',
       position: 'Manager',
+      of: false,
       company: 'Raymond James',
       episodeNumber: 5,
       url: 'https://open.spotify.com/episode/099xguradRJVz4CaoX5n3b?si=f61f8f94cb9a42dc',
@@ -34,6 +46,7 @@ export default function Guests() {
     {
       name: 'Jeremy Phillips',
       position: 'Manager',
+      of: false,
       company: 'Simon-Kucher & Partners',
       episodeNumber: 4,
       url: 'https://open.spotify.com/episode/4V2fRBVVeiJn3mOHb9n2Um?si=cca66c391d864116',
@@ -42,6 +55,7 @@ export default function Guests() {
     {
       name: 'Alexander Günthner',
       position: 'Associate',
+      of: false,
       company: 'Boston Consulting Group',
       episodeNumber: 3,
       url: 'https://open.spotify.com/episode/3OMGAQjsr02zin5HGQrEGX?si=95e29ff7ed584246',
@@ -120,7 +134,7 @@ export default function Guests() {
                       </Col>
                       <Col>
                         <h6 className='mb-2'>{guest.name}</h6>
-                        <p className='mb-1'>{guest.position} at {guest.company}</p>
+                        <p className='mb-1'>{guest.position} {guest.of ? 'of' : 'at'} {guest.company}</p>
                         <p className="text-black-50"><small>Episode #{guest.episodeNumber}</small></p>
                         <a href={guest.url} target='_blank'>
                           <Button variant='outline-orange-fill'>
