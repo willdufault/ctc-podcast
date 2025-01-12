@@ -5,10 +5,10 @@ import Carousel from 'react-multi-carousel'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import episode5Image from '../../../assets/images/episode-5.jpg'
 import episode6Image from '../../../assets/images/episode-6.jpg'
 import episode7Image from '../../../assets/images/episode-7.jpg'
 import episode8Image from '../../../assets/images/episode-8.jpg'
+import episode9Image from '../../../assets/images/episode-9.jpg'
 import 'react-multi-carousel/lib/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCirclePlay } from '@fortawesome/free-regular-svg-icons'
@@ -24,6 +24,15 @@ export default function Episodes() {
     imageSrc: string
   }
   const episodes: EpisodeData[] = [
+    {
+      title: '#9) Josh Richardson',
+      description: 'Happy New Year from CTC! Join Ryan for insights from Lazard Analyst Josh Richardson on breaking into Wall Street and managing time in investment banking.',
+      date: 'Jan 5 2025',
+      hours: 0,
+      minutes: 46,
+      url: 'https://open.spotify.com/episode/4jN8RZHbUhPRbkH91nBVlY?si=736c152e829343a1',
+      imageSrc: episode9Image
+    },
     {
       title: '#8) Jacopo Piccirillo',
       description: 'Ryan and Emmanuel chat with aspiring venture capitalist Jacopo Piccirillo about launching a European soft drink during the pandemic, covering R&D, funding, and product development insights.',
@@ -50,15 +59,6 @@ export default function Episodes() {
       minutes: 55,
       url: 'https://open.spotify.com/episode/1XTBLTx6phNM2clKYVPK67?si=6da0a771fa18419c',
       imageSrc: episode6Image
-    },
-    {
-      title: '#5) Ariel Magil',
-      description: 'Ryan and Emmanuel interview Raymond James Toronto Manager Ariel Magil on building a career in Wealth Management and job-hunting tips for students.',
-      date: 'July 18 2024',
-      hours: 0,
-      minutes: 40,
-      url: 'https://open.spotify.com/episode/099xguradRJVz4CaoX5n3b?si=c7cbb4bc3b26445a',
-      imageSrc: episode5Image
     }
   ]
 
