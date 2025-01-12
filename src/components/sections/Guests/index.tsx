@@ -10,6 +10,7 @@ import Container from 'react-bootstrap/Container'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import arielMagilHeadshot from '../../../assets/images/ariel-magil-headshot.jpg'
+import joshRichardsonHeadshot from '../../../assets/images/josh-richardson-headshot.jpg'
 import jeremyPhillipsHeadshot from '../../../assets/images/jeremy-phillips-headshot.jpg'
 import alexanderGunthnerHeadshot from '../../../assets/images/alexander-gunthner-headshot.jpg'
 import jacopoPiccirilloHeadshot from '../../../assets/images/jacopo-piccirillo-headshot.jpg'
@@ -25,6 +26,15 @@ export default function Guests() {
     imageSrc: string
   }
   const guests: GuestData[] = [
+    {
+      name: 'Josh Richardson',
+      position: 'Investment Banking Analyst',
+      of: false,
+      company: 'Lazard',
+      episodeNumber: 9,
+      url: 'https://open.spotify.com/episode/4jN8RZHbUhPRbkH91nBVlY?si=736c152e829343a1',
+      imageSrc: joshRichardsonHeadshot,
+    },
     {
       name: 'Jacopo Piccirillo',
       position: 'Founder',
@@ -51,16 +61,7 @@ export default function Guests() {
       episodeNumber: 4,
       url: 'https://open.spotify.com/episode/4V2fRBVVeiJn3mOHb9n2Um?si=cca66c391d864116',
       imageSrc: jeremyPhillipsHeadshot,
-    },
-    {
-      name: 'Alexander Günthner',
-      position: 'Associate',
-      of: false,
-      company: 'Boston Consulting Group',
-      episodeNumber: 3,
-      url: 'https://open.spotify.com/episode/3OMGAQjsr02zin5HGQrEGX?si=95e29ff7ed584246',
-      imageSrc: alexanderGunthnerHeadshot,
-    },
+    }
   ]
 
   const ButtonGroup = ({ next, previous, goToSlide, carouselState }: any) => {
