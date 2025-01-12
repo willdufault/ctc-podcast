@@ -19,7 +19,7 @@ export default function Hero() {
               <Image src={ctc_logo} alt="todo" fluid></Image>
             </Col>
             <Col lg={6} xl={5}>
-              <h1 className={`text-center ${styles['hero-title']}`}>COFFEE TO<br />CAMPFIRE</h1>
+              <h1 className={`text-center ${styles['hero-title']}`}>COFFEE TO<br />TRINITY</h1>
               <p className='fs-5 text-center text-white'>Come for the professional development,<br />stay for the campfire stories.</p>
               <div className='d-flex flex-column flex-sm-row gap-3 justify-content-center '>
                 <a href="#subscribe">
