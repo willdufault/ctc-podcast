@@ -12,7 +12,6 @@ import 'react-multi-carousel/lib/styles.css'
 import arielMagilHeadshot from '../../../assets/images/ariel-magil-headshot.jpg'
 import joshRichardsonHeadshot from '../../../assets/images/josh-richardson-headshot.jpg'
 import jeremyPhillipsHeadshot from '../../../assets/images/jeremy-phillips-headshot.jpg'
-import alexanderGunthnerHeadshot from '../../../assets/images/alexander-gunthner-headshot.jpg'
 import jacopoPiccirilloHeadshot from '../../../assets/images/jacopo-piccirillo-headshot.jpg'
 
 export default function Guests() {
