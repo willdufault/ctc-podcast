@@ -24,6 +24,9 @@ jobs:
 
           git fetch origin live
           git checkout live
+
+          pwd
+          ls
           
           rm -rf .
           cp -r build/* .
