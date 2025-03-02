@@ -33,7 +33,7 @@ jobs:
           
           rm -rf assets
           cp -r dist/* .
-          git add -f *
+          git add -f .
           git commit -m "Deploy React app to live branch"
           
           git push origin live
