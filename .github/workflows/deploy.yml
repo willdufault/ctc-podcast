@@ -32,9 +32,9 @@ jobs:
 
           rm -rf assets
           cp -r dist/* .
+          rm -rf node_modules dist
           
           git add -f .
-          git rm -rf node_modules dist
           git commit -m "Deploy React app to live branch"
           
           git push origin live
