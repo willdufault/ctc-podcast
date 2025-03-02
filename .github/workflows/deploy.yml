@@ -27,7 +27,10 @@ jobs:
           git fetch origin main
           git checkout main
 
-          ls /dist/assets/fonts
+          ls
+          ls dist
+          ls dist/assets
+          ls dist/assets/fonts
 
           mkdir ~/temp
           cp -r dist/{,.}* ~/temp
