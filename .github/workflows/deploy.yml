@@ -22,8 +22,14 @@ jobs:
       - name: Deploy to live branch
         run: |
           set -x
+          
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+
+          pwd
+          ls
+          pwd ~
+          ls ~
 
           git fetch origin live
           git checkout live
