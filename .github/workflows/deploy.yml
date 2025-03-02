@@ -26,17 +26,16 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-          pwd
-          ls
-          pwd ~
-          ls ~
+          git fetch origin main
+          git checkout main
+
+          cp -r dist/* ~/temp
 
           git fetch origin live
           git checkout live
 
-          rm -rf assets
-          cp -r dist/* .
-          rm -rf node_modules dist
+          rm -rf ./*
+          cp -r ~/temp/* .
           
           git add -f .
           git commit -m "Deploy React app to live branch"
