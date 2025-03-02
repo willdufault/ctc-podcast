@@ -28,8 +28,8 @@ jobs:
           pwd
           ls
           
-          rm -rf .
-          cp -r build/* .
+          rm -rf ./*
+          cp -r dist/* .
           git add .
           git commit -m "Deploy React app to live branch"
           
