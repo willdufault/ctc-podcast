@@ -27,6 +27,7 @@ jobs:
 
           pwd
           ls
+          ls dist
           
           rm -rf ./*
           cp -r dist/* .
