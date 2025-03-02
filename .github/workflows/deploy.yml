@@ -30,7 +30,7 @@ jobs:
           echo '-----'
           ls dist
           
-          rm -rf *
+          rm -rf assets
           cp -r dist/* .
           git add *
           git commit -m "Deploy React app to live branch"
