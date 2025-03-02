@@ -50,7 +50,7 @@ export default function About() {
                   <h6 className='mb-0'>Ryan Hu</h6>
                   <p>Co-Host of Coffee to Campfire</p>
                   <p>
-                    (temp) Ryan is a Master in Management candidate at the University of Chicago Booth School of Business and a graduate of the University of Toronto with a degree in Economics. He is an incoming Associate at L.E.K. Consulting in Chicago and is particularly interested in buy-side opportunities in middle-market private equity. In his free time, he enjoys playing paddle sports, running marathons, and traveling.
+                    Ryan is a Master in Management candidate at the University of Chicago Booth School of Business and a graduate of the University of Toronto with a degree in Economics. He is an incoming Associate at L.E.K. Consulting in Chicago and is particularly interested in buy-side opportunities in middle-market private equity. In his free time, he enjoys playing paddle sports, running marathons, and traveling.
                   </p>
                   <div className='d-flex column-gap-3'>
                     <Social url='https://www.linkedin.com/in/ryanhhu/' Icon={faLinkedin}></Social>
