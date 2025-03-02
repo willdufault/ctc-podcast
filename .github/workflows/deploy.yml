@@ -37,7 +37,7 @@ jobs:
           git checkout live
 
           rm -rf ./*
-          cp -r ~/temp{,.}/* .
+          cp -r ~/temp/{,.}* .
           ls -a .
 
           git status
