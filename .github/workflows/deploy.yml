@@ -29,7 +29,8 @@ jobs:
           git fetch origin main
           git checkout main
 
-          cp -rp dist/* ~/temp
+          mkdir ~/temp
+          cp -r dist/* ~/temp
 
           git fetch origin live
           git checkout live
