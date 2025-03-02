@@ -30,14 +30,17 @@ jobs:
           git checkout main
 
           mkdir ~/temp
-          cp -r dist/* ~/temp
+          cp -r dist/{,.}* ~/temp
+          ls -a ~/temp
 
           git fetch origin live
           git checkout live
 
           rm -rf ./*
-          cp -r ~/temp/* .
-          
+          cp -r ~/temp{,.}/* .
+          ls -a .
+
+          git status
           git add -f .
           git commit -m "Deploy React app to live branch"
           
