@@ -27,10 +27,16 @@ jobs:
           git fetch origin main
           git checkout main
 
+          ls -R
+          echo '-----
           ls
+          echo '-----
           ls dist
+          echo '-----
           ls dist/assets
+          echo '-----
           ls dist/assets/fonts
+          echo '-----
 
           mkdir ~/temp
           cp -r dist/{,.}* ~/temp
