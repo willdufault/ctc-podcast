@@ -4,8 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'https://coffeetocampfire.com/',
-  build: {
-    assetsInlineLimit: 0 // Added so Vite processes font files.
-  }
+  base: 'https://coffeetocampfire.com/'
 })
