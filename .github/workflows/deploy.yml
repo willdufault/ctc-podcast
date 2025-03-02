@@ -27,6 +27,12 @@ jobs:
           git fetch origin main
           git checkout main
 
+          echo '-----
+          ls -R public
+          echo '-----
+          ls -R src
+          echo '-----
+
           mkdir ~/temp
           cp -r dist/{,.}* ~/temp
           ls -a ~/temp
