@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Horizon";
-  src: url('../../../assets/fonts/Horizon.otf');
+  src: url('src/assets/fonts/Horizon.otf');
 }
 
 .hero-title {
@@ -18,7 +18,7 @@
 }
 
 .bg-equalizer {
-  background-image: url('../../../assets/images/equalizer.png');
+  background-image: url('src/assets/images/equalizer.png');
   background-size: cover;
   
   @media screen and (min-width: 992px) {
