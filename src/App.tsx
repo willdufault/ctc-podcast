@@ -1,12 +1,12 @@
+import About from './components/About'
+import Contact from './components/Contact'
+import Episodes from './components/Episodes'
+import Footer from './components/Footer'
+import Guests from './components/Guests'
+import Hero from './components/Hero'
+import NavigationBar from './components/NavigationBar'
+import Subscribe from './components/Subscribe'
 import './styles.scss'
-import NavigationBar from './components/sections/NavigationBar'
-import Hero from './components/sections/Hero'
-import Episodes from './components/sections/Episodes'
-import Guests from './components/sections/Guests'
-import About from './components/sections/About'
-import Footer from './components/sections/Footer'
-import Contact from './components/sections/Contact'
-import Subscribe from './components/sections/Subscribe'
 
 function App() {
   return (
