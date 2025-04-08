@@ -12,10 +12,10 @@ import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
-import episode6Image from '../../assets/images/episode-6.jpg'
 import episode7Image from '../../assets/images/episode-7.jpg'
 import episode8Image from '../../assets/images/episode-8.jpg'
 import episode9Image from '../../assets/images/episode-9.jpg'
+import episode10Image from '../../assets/images/episode-10.jpg'
 export default function Episodes() {
   interface EpisodeData {
     title: string
@@ -27,6 +27,16 @@ export default function Episodes() {
     imageSrc: string
   }
   const episodes: EpisodeData[] = [
+    {
+      title: '#10) Emmanuel\'s Journey to Morningstar',
+      description:
+        'Ryan and Emmanual talk about Emmanuel\'s first job at Morningstar DBRS and career prospects as a Sovereign Ratings Analyst, and examine rising unemployment among MBA grads.',
+      date: 'Apr 8 2025',
+      hours: 0,
+      minutes: 40,
+      url: 'https://open.spotify.com/episode/2Pja9J5nGg5rz9NPLHJ2Q8?si=600400a1051c4c66',
+      imageSrc: episode10Image,
+    },
     {
       title: '#9) Josh Richardson',
       description:
@@ -56,17 +66,7 @@ export default function Episodes() {
       minutes: 49,
       url: 'https://open.spotify.com/episode/4nseqbWSO7HbuEpnOybfnM?si=d5d320b0560243dd',
       imageSrc: episode7Image,
-    },
-    {
-      title: '#6) CTC x KTTP',
-      date: 'Aug 10 2024',
-      description:
-        "Ryan and Emmanuel join the KTTP hosts to discuss East vs. West Coast lifestyles and compare UofT's Economics program with UBC's Sauder School of Business.",
-      hours: 0,
-      minutes: 55,
-      url: 'https://open.spotify.com/episode/1XTBLTx6phNM2clKYVPK67?si=6da0a771fa18419c',
-      imageSrc: episode6Image,
-    },
+    }
   ]
 
   function formatTime(hours: number, minutes: number): string {
