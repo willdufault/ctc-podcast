@@ -30,7 +30,7 @@ export default function Episodes() {
     {
       title: '#10) Emmanuel\'s Journey to Morningstar',
       description:
-        'Ryan and Emmanual talk about Emmanuel\'s first job at Morningstar DBRS and career prospects as a Sovereign Ratings Analyst, and examine rising unemployment among MBA grads.',
+        'Ryan and Emmanuel talk about Emmanuel\'s first job at Morningstar DBRS and career prospects as a Sovereign Ratings Analyst. They also discuss rising unemployment trends among MBA grads.',
       date: 'Apr 8 2025',
       hours: 0,
       minutes: 40,
