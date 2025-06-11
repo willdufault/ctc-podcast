@@ -85,13 +85,13 @@ export default function About() {
                   <h6 className="mb-0">Ryan Hu</h6>
                   <p>Co-Host of Coffee to Campfire</p>
                   <p>
-                    Ryan is a Master in Management candidate at the University
-                    of Chicago Booth School of Business and a graduate of the
-                    University of Toronto with a degree in Economics. He is an
-                    incoming Associate at L.E.K. Consulting in Chicago and is
-                    particularly interested in buy-side opportunities in
-                    middle-market private equity. In his free time, he enjoys
-                    playing paddle sports, running marathons, and traveling.
+                    Ryan holds a Master's degree from the University of Chicago
+                    Booth School of Business and an Honours BA in Economics from
+                    the University of Toronto. He is an incoming Associate at
+                    L.E.K. Consulting in Chicago, with a strong interest in
+                    buy-side opportunities, particularly within middle-market
+                    private equity. Outside of work, Ryan enjoys paddle sports,
+                    marathon running, and traveling.
                   </p>
                   <div className="d-flex column-gap-3">
                     <Social
@@ -128,7 +128,7 @@ export default function About() {
                   <p>
                     Emmanuel is a Global Sovereign Credit Analyst at Morningstar
                     DBRS in Toronto. He is entering the credit ratings industry
-                    after obtaining his bachelors in Economics and Political
+                    after obtaining his bachelor's in Economics and Political
                     Science from the University of Toronto. He is also currently
                     pursuing CFA Level 1. In his free time, he enjoys playing
                     and watching basketball and football, reading comic books,
