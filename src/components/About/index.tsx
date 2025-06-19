@@ -127,12 +127,14 @@ export default function About() {
                   <p>Co-Host of Coffee to Campfire</p>
                   <p>
                     Emmanuel is a Global Sovereign Credit Analyst at Morningstar
-                    DBRS in Toronto. He is entering the credit ratings industry
-                    after obtaining his bachelor's in Economics and Political
-                    Science from the University of Toronto. He is also currently
-                    pursuing CFA Level 1. In his free time, he enjoys playing
-                    and watching basketball and football, reading comic books,
-                    and running.
+                    DBRS in Toronto. As an Analyst, he helps maintain a
+                    portfolio of more than 40 sovereign governments and public
+                    finance institutions ratings. He entered the credit ratings
+                    industry after earning his Honours BA in Economics and
+                    Political Science from the University of Toronto. He is also
+                    currently pursuing CFA Level 1. In his free time, he enjoys
+                    playing and watching basketball and football, reading comic
+                    books, and running.
                   </p>
                   <div className="d-flex column-gap-3">
                     <Social
