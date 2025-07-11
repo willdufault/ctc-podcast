@@ -88,10 +88,8 @@ export default function About() {
                     Ryan holds a Master's degree from the University of Chicago
                     Booth School of Business and an Honours BA in Economics from
                     the University of Toronto. He is an incoming Associate at
-                    L.E.K. Consulting in Chicago, with a strong interest in
-                    buy-side opportunities, particularly within middle-market
-                    private equity. Outside of work, Ryan enjoys paddle sports,
-                    marathon running, and traveling.
+                    L.E.K. Consulting in Chicago. Outside of work, Ryan enjoys
+                    paddle sports, marathon running, and traveling.
                   </p>
                   <div className="d-flex column-gap-3">
                     <Social
