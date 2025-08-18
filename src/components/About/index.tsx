@@ -87,9 +87,9 @@ export default function About() {
                   <p>
                     Ryan holds a Master's degree from the University of Chicago
                     Booth School of Business and an Honours BA in Economics from
-                    the University of Toronto. He is an incoming Associate at
-                    L.E.K. Consulting in Chicago. Outside of work, Ryan enjoys
-                    paddle sports, marathon running, and traveling.
+                    the University of Toronto. He is an Associate at L.E.K. 
+                    Consulting in Chicago. Outside of work, Ryan enjoys paddle 
+                    sports, marathon running, and traveling.
                   </p>
                   <div className="d-flex column-gap-3">
                     <Social
