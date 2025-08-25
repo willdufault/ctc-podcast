@@ -12,10 +12,10 @@ import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
-import episode10Image from '../../assets/images/episode-10.jpg'
-import episode7Image from '../../assets/images/episode-7.jpg'
-import episode8Image from '../../assets/images/episode-8.jpg'
-import episode9Image from '../../assets/images/episode-9.jpg'
+import episode10Image from '../../assets/images/episode-10.webp'
+import episode11Image from '../../assets/images/episode-11.webp'
+import episode8Image from '../../assets/images/episode-8.webp'
+import episode9Image from '../../assets/images/episode-9.webp'
 export default function Episodes() {
   interface EpisodeData {
     title: string
@@ -27,6 +27,16 @@ export default function Episodes() {
     imageSrc: string
   }
   const episodes: EpisodeData[] = [
+    {
+      title: "#11) Summer Updates",
+      description:
+        "Ryan and Emmanual talk about Ryan's upcoming job at L.E.K. Consulting, strategies for nagivating a tough job market, and insights from the July US jobs report.",
+      date: 'Aug 24 2025',
+      hours: 0,
+      minutes: 40,
+      url: 'https://open.spotify.com/episode/2OG9il1HjYUjplAgumnPCO?si=202e78fa75854117',
+      imageSrc: episode11Image,
+    },
     {
       title: "#10) Emmanuel's Journey to Morningstar",
       description:
@@ -56,16 +66,6 @@ export default function Episodes() {
       minutes: 44,
       url: 'https://open.spotify.com/episode/5qQggWPfqJzHVOAcD1Q0P3?si=1e757d40b5844f2b',
       imageSrc: episode8Image,
-    },
-    {
-      title: '#7) New Beginnings',
-      description:
-        "Emmanuel and Ryan discuss Ryan's start at UChicago Booth for his Master's, the career value of a CFA designation, and add a new segment on current business news.",
-      date: 'Oct 7 2024',
-      hours: 0,
-      minutes: 49,
-      url: 'https://open.spotify.com/episode/4nseqbWSO7HbuEpnOybfnM?si=d5d320b0560243dd',
-      imageSrc: episode7Image,
     },
   ]
 

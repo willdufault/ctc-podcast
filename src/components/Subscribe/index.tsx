@@ -3,10 +3,10 @@ import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
-import applePodcastsButton from '../../assets/images/apple-podcasts-button.png'
-import instagramButton from '../../assets/images/instagram-button.png'
-import linkedInButton from '../../assets/images/linkedin-button.png'
-import spotifyButton from '../../assets/images/spotify-button.png'
+import applePodcastsButton from '../../assets/images/apple-podcasts-button.webp'
+import instagramButton from '../../assets/images/instagram-button.webp'
+import linkedInButton from '../../assets/images/linkedin-button.webp'
+import spotifyButton from '../../assets/images/spotify-button.webp'
 
 export default function Subscribe() {
   return (

@@ -1,7 +1,7 @@
 import { faCirclePlay } from '@fortawesome/free-regular-svg-icons'
 import {
-  faChevronLeft,
-  faChevronRight,
+    faChevronLeft,
+    faChevronRight,
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Button from 'react-bootstrap/Button'
@@ -12,10 +12,10 @@ import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
-import arielMagilHeadshot from '../../assets/images/ariel-magil-headshot.jpg'
-import jacopoPiccirilloHeadshot from '../../assets/images/jacopo-piccirillo-headshot.jpg'
-import jeremyPhillipsHeadshot from '../../assets/images/jeremy-phillips-headshot.jpg'
-import joshRichardsonHeadshot from '../../assets/images/josh-richardson-headshot.jpg'
+import arielMagilHeadshot from '../../assets/images/ariel-magil-headshot.webp'
+import jacopoPiccirilloHeadshot from '../../assets/images/jacopo-piccirillo-headshot.webp'
+import jeremyPhillipsHeadshot from '../../assets/images/jeremy-phillips-headshot.webp'
+import joshRichardsonHeadshot from '../../assets/images/josh-richardson-headshot.webp'
 
 export default function Guests() {
   interface GuestData {

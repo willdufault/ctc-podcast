@@ -1,7 +1,7 @@
 import {
-  faInstagram,
-  faLinkedin,
-  faSpotify,
+    faInstagram,
+    faLinkedin,
+    faSpotify,
 } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import { faPodcast } from '@fortawesome/free-solid-svg-icons'
@@ -11,9 +11,9 @@ import Container from 'react-bootstrap/Container'
 import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
 import Stack from 'react-bootstrap/Stack'
-import ctcLogo from '../../assets/images/coffee-to-campfire-logo.jpg'
-import emmanuelHeadshot from '../../assets/images/emmanuel-atallah-headshot.jpg'
-import ryanHeadshot from '../../assets/images/ryan-hu-headshot.jpg'
+import ctcLogo from '../../assets/images/coffee-to-campfire-logo.webp'
+import emmanuelHeadshot from '../../assets/images/emmanuel-atallah-headshot.webp'
+import ryanHeadshot from '../../assets/images/ryan-hu-headshot.webp'
 import Social from '../Social'
 
 export default function About() {
