@@ -85,11 +85,12 @@ export default function About() {
                   <h6 className="mb-0">Ryan Hu</h6>
                   <p>Co-Host of Coffee to Campfire</p>
                   <p>
-                    Ryan holds a Master's degree from the University of Chicago
-                    Booth School of Business and an Honours BA in Economics from
-                    the University of Toronto. He is an Associate at L.E.K. 
-                    Consulting in Chicago. Outside of work, Ryan enjoys paddle 
-                    sports, marathon running, and traveling.
+                      Ryan holds a Master's degree from the University of 
+                      Chicago Booth School of Business and an Honours BA in 
+                      Economics from the University of Toronto. He is an 
+                      Associate Consultant at Bain & Company in Boston. Outside 
+                      of work, Ryan enjoys paddle sports, marathon running, and 
+                      traveling.
                   </p>
                   <div className="d-flex column-gap-3">
                     <Social
