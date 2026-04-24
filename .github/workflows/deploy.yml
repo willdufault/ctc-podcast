@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '22.14.0'
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Build the React app
         run: npm run build
       - name: Deploy to live branch
