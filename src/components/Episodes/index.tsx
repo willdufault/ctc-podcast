@@ -1,21 +1,21 @@
-import { faCirclePlay } from '@fortawesome/free-regular-svg-icons'
+import { faCirclePlay } from "@fortawesome/free-regular-svg-icons"
 import {
   faChevronLeft,
-  faChevronRight,
-} from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Button from 'react-bootstrap/Button'
-import Card from 'react-bootstrap/Card'
-import Col from 'react-bootstrap/Col'
-import Container from 'react-bootstrap/Container'
-import Image from 'react-bootstrap/Image'
-import Row from 'react-bootstrap/Row'
-import Carousel from 'react-multi-carousel'
-import 'react-multi-carousel/lib/styles.css'
-import episode10Image from '../../assets/images/episode-10.webp'
-import episode11Image from '../../assets/images/episode-11.webp'
-import episode8Image from '../../assets/images/episode-8.webp'
-import episode9Image from '../../assets/images/episode-9.webp'
+  faChevronRight
+} from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Button from "react-bootstrap/Button"
+import Card from "react-bootstrap/Card"
+import Col from "react-bootstrap/Col"
+import Container from "react-bootstrap/Container"
+import Image from "react-bootstrap/Image"
+import Row from "react-bootstrap/Row"
+import Carousel from "react-multi-carousel"
+import "react-multi-carousel/lib/styles.css"
+import episode10Image from "../../assets/images/episode-10.webp"
+import episode11Image from "../../assets/images/episode-11.webp"
+import episode12Image from "../../assets/images/episode-12.webp"
+import episode9Image from "../../assets/images/episode-9.webp"
 export default function Episodes() {
   interface EpisodeData {
     title: string
@@ -28,49 +28,49 @@ export default function Episodes() {
   }
   const episodes: EpisodeData[] = [
     {
+      title: "#12) Spring Cleaning",
+      description:
+        "Ryan shares his move from L.E.K. Consulting to Bain & Company, and Emmanuel reflects on his first year at Morningstar DBRS and preparing for the CFA Level 1 exam.",
+      date: "April 24 2026",
+      hours: 0,
+      minutes: 29,
+      url: "https://open.spotify.com/episode/1kEr31bz3nXnMp1cqUmaBH?si=4C4MwFmyR5SezlojH1QsUg",
+      imageSrc: episode12Image
+    },
+    {
       title: "#11) Summer Updates",
       description:
         "Ryan and Emmanual talk about Ryan's upcoming job at L.E.K. Consulting, strategies for nagivating a tough job market, and insights from the July US jobs report.",
-      date: 'Aug 24 2025',
+      date: "Aug 24 2025",
       hours: 0,
       minutes: 40,
-      url: 'https://open.spotify.com/episode/2OG9il1HjYUjplAgumnPCO?si=202e78fa75854117',
-      imageSrc: episode11Image,
+      url: "https://open.spotify.com/episode/2OG9il1HjYUjplAgumnPCO?si=202e78fa75854117",
+      imageSrc: episode11Image
     },
     {
       title: "#10) Emmanuel's Journey to Morningstar",
       description:
         "Ryan and Emmanuel talk about Emmanuel's first job as a Sovereign Ratings Analyst at Morningstar DBRS and rising unemployment among MBA grads.",
-      date: 'Apr 8 2025',
+      date: "Apr 8 2025",
       hours: 0,
       minutes: 40,
-      url: 'https://open.spotify.com/episode/2Pja9J5nGg5rz9NPLHJ2Q8?si=600400a1051c4c66',
-      imageSrc: episode10Image,
+      url: "https://open.spotify.com/episode/2Pja9J5nGg5rz9NPLHJ2Q8?si=600400a1051c4c66",
+      imageSrc: episode10Image
     },
     {
-      title: '#9) Josh Richardson',
+      title: "#9) Josh Richardson",
       description:
-        'Happy New Year from CTC! Join Ryan for insights from Lazard Analyst Josh Richardson on breaking into Wall Street and managing time in investment banking.',
-      date: 'Jan 5 2025',
+        "Happy New Year from CTC! Join Ryan for insights from Lazard Analyst Josh Richardson on breaking into Wall Street and managing time in investment banking.",
+      date: "Jan 5 2025",
       hours: 0,
       minutes: 46,
-      url: 'https://open.spotify.com/episode/4jN8RZHbUhPRbkH91nBVlY?si=736c152e829343a1',
-      imageSrc: episode9Image,
-    },
-    {
-      title: '#8) Jacopo Piccirillo',
-      description:
-        'Ryan and Emmanuel chat with aspiring venture capitalist Jacopo Piccirillo about launching a European soft drink during the pandemic, covering R&D, funding, and product development insights.',
-      date: 'Nov 12 2024',
-      hours: 0,
-      minutes: 44,
-      url: 'https://open.spotify.com/episode/5qQggWPfqJzHVOAcD1Q0P3?si=1e757d40b5844f2b',
-      imageSrc: episode8Image,
-    },
+      url: "https://open.spotify.com/episode/4jN8RZHbUhPRbkH91nBVlY?si=736c152e829343a1",
+      imageSrc: episode9Image
+    }
   ]
 
   function formatTime(hours: number, minutes: number): string {
-    const hours_formatted = hours > 0 ? `${hours} hr ` : ''
+    const hours_formatted = hours > 0 ? `${hours} hr ` : ""
     const minutes_formatted = `${minutes} min`
     return hours_formatted + minutes_formatted
   }
@@ -91,8 +91,8 @@ export default function Episodes() {
                 variant="dot"
                 className={
                   currentSlide % episodes.length == index
-                    ? 'bg-gray-dark'
-                    : 'initial'
+                    ? "bg-gray-dark"
+                    : "initial"
                 }
               ></Button>
             </li>
@@ -123,19 +123,19 @@ export default function Episodes() {
             desktop: {
               breakpoint: {
                 max: 3000,
-                min: 768,
+                min: 768
               },
               items: 2,
-              partialVisibilityGutter: 40,
+              partialVisibilityGutter: 40
             },
             tablet: {
               breakpoint: {
                 max: 768,
-                min: 0,
+                min: 0
               },
               items: 1,
-              partialVisibilityGutter: 30,
-            },
+              partialVisibilityGutter: 30
+            }
           }}
         >
           {episodes.map((episode, index) => (
@@ -156,7 +156,7 @@ export default function Episodes() {
                       <p className="mb-1">{episode.description}</p>
                       <p className="text-black-50">
                         <small>
-                          {episode.date} –{' '}
+                          {episode.date} –{" "}
                           {formatTime(episode.hours, episode.minutes)}
                         </small>
                       </p>

@@ -37,7 +37,7 @@ export default function Hero() {
                   </Button>
                 </a>
                 <a
-                  href='https://open.spotify.com/episode/2OG9il1HjYUjplAgumnPCO?si=1090e9a20754488a'
+                  href='https://open.spotify.com/episode/1kEr31bz3nXnMp1cqUmaBH?si=c1b3b26d7c41452c'
                   target='_blank'
                 >
                   <Button size='lg' className='w-100' variant='outline-white'>
